@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h6>CRUD OPERATIONS</h6>
+
+        <div class="profile">
+            <img src="https://c8.alamy.com/comp/2BNBX6E/id-card-concept-employee-man-with-identity-badge-business-security-and-identification-vector-illustration-identity-id-card-for-pass-security-identification-plastic-2BNBX6E.jpg">
+
+            <h6>Harshada Jagtap</h6>
+            <span>Admin</span>
+        </div>
+
+        <div class="menu">
+            <a href="#"><i class="bi bi-house"></i>Home</a>
+            <a href="#"><i class="bi bi-book"></i>Course</a>
+            <a href="#" class="active"><i class="bi bi-people"></i>Students</a>
+            <a href="#"><i class="bi bi-credit-card"></i>Payment</a>
+            <a href="#"><i class="bi bi-file-text"></i>Report</a>
+            <a href="#"><i class="bi bi-gear"></i>Settings</a>
+        </div>
+
+        <div class="mt-5">
+            <a href="#" class="text-decoration-none text-dark">
+                <i class="bi bi-box-arrow-right"></i> Logout
+            </a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+        <div class="top-bar">
+            <h5 class="fw-bold">Students List</h5>
+
+            <div class="d-flex gap-3 align-items-center">
+                <div class="search">
+                    <input type="text" class="form-control form-control-sm" placeholder="Search...">
+                </div>
+                <button class="add-btn">
+                    <i class="bi bi-plus-lg"></i> ADD NEW STUDENT
+                </button>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div class="header-row">
+            <div>Name</div>
+            <div>Email</div>
+            <div>Phone</div>
+            <div>Enroll Number</div>
+            <div>Date of admission</div>
+        </div>
+
+        <!-- Student Row -->
+        <div class="student-card">
+            
+            <div class="student-info">
+                <div>Harshada </div>
+                <div>jagtapharshada84@gmail.com</div>
+                <div>7305477760</div>
+                <div>1234567305477760</div>
+                <div>08-Dec, 2021</div>
+            </div>
+            <div class="actions">
+                <i class="bi bi-pencil"></i>
+                <i class="bi bi-trash"></i>
+            </div>
+        </div>
+
+        <!-- Duplicate rows -->
+        <div class="student-card">
+            
+            <div class="student-info">
+                <div>Sankalp</div>
+                <div>sankalp12@gmail.com</div>
+                <div>7305477760</div>
+                <div>1234567305477760</div>
+                <div>08-Dec, 2021</div>
+            </div>
+            <div class="actions">
+                <i class="bi bi-pencil"></i>
+                <i class="bi bi-trash"></i>
+            </div>
+        </div>
+
+        <div class="student-card">
+            
+            <div class="student-info">
+                <div>Sarthak</div>
+                <div>sarthak45@gmail.com</div>
+                <div>7305477760</div>
+                <div>1234567305477760</div>
+                <div>08-Dec, 2021</div>
+            </div>
+            <div class="actions">
+                <i class="bi bi-pencil"></i>
+                <i class="bi bi-trash"></i>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
